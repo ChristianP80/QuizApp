@@ -53,7 +53,7 @@
     self.questionCounter = 0;
     self.rightGuesses = 0;
     [self showQuestion];
-    self.rightOrWrong.text = @"";
+    self.scoreTable.text = @"";
     [self showButtons];
     [self buttonsEnabled];
 }
