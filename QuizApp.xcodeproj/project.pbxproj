@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		3D61680B201540430045C59E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D61680A201540430045C59E /* AppDelegate.m */; };
-		3D61680E201540430045C59E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D61680D201540430045C59E /* ViewController.m */; };
+		3D61680E201540430045C59E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D61680D201540430045C59E /* GameViewController.m */; };
 		3D616811201540430045C59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D61680F201540430045C59E /* Main.storyboard */; };
 		3D616813201540430045C59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D616812201540430045C59E /* Assets.xcassets */; };
 		3D616816201540430045C59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D616814201540430045C59E /* LaunchScreen.storyboard */; };
 		3D616819201540430045C59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D616818201540430045C59E /* main.m */; };
+		3D616824201860B60045C59E /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D616823201860B60045C59E /* GameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D616806201540430045C59E /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D616809201540430045C59E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D61680A201540430045C59E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D61680C201540430045C59E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D61680D201540430045C59E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D61680C201540430045C59E /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		3D61680D201540430045C59E /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		3D616810201540430045C59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D616812201540430045C59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D616815201540430045C59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D616817201540430045C59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D616818201540430045C59E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D616822201860B60045C59E /* GameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		3D616823201860B60045C59E /* GameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +63,11 @@
 			children = (
 				3D616809201540430045C59E /* AppDelegate.h */,
 				3D61680A201540430045C59E /* AppDelegate.m */,
-				3D61680C201540430045C59E /* ViewController.h */,
-				3D61680D201540430045C59E /* ViewController.m */,
+				3D61680C201540430045C59E /* GameViewController.h */,
+				3D61680D201540430045C59E /* GameViewController.m */,
 				3D61680F201540430045C59E /* Main.storyboard */,
+				3D616822201860B60045C59E /* GameModel.h */,
+				3D616823201860B60045C59E /* GameModel.m */,
 				3D616812201540430045C59E /* Assets.xcassets */,
 				3D616814201540430045C59E /* LaunchScreen.storyboard */,
 				3D616817201540430045C59E /* Info.plist */,
@@ -142,7 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D61680E201540430045C59E /* ViewController.m in Sources */,
+				3D61680E201540430045C59E /* GameViewController.m in Sources */,
+				3D616824201860B60045C59E /* GameModel.m in Sources */,
 				3D616819201540430045C59E /* main.m in Sources */,
 				3D61680B201540430045C59E /* AppDelegate.m in Sources */,
 			);
