@@ -45,72 +45,72 @@
 }
 
 -(void)generateQuestions {
-    self.question1 = @{@"question":@"Vad heter Kakans Bror?",
-                       @"answer1":@"Willie",
-                       @"answer2":@"Chrille Kriminell",
-                       @"answer3":@"Knejp",
-                       @"answer4":@"Bror",
-                       @"correctAnswer":@"Bror"};
-    self.question2 = @{@"question":@"Hur många sekunder går det på en timma?",
-                       @"answer1":@"60",
-                       @"answer2":@"3600",
-                       @"answer3":@"660",
-                       @"answer4":@"360",
-                       @"correctAnswer":@"3600"};
-    self.question3 = @{@"question":@"Hur ser man att en bil är från Polen?",
-                       @"answer1":@"Det står *från Polen* på den",
-                       @"answer2":@"Den är grön",
-                       @"answer3":@"Det är rostig",
-                       @"answer4":@"Påå lacken",
-                       @"correctAnswer":@"Påå lacken"};
-    self.question4 = @{@"question":@"Vad är det för dag idag?",
-                       @"answer1":@"Måndag",
-                       @"answer2":@"Tisdag",
-                       @"answer3":@"Onsdag",
-                       @"answer4":@"Any day",
-                       @"correctAnswer":@"Any day"};
-    self.question5 = @{@"question":@"Hur gör Wille?",
-                       @"answer1":@"Knådar",
-                       @"answer2":@"Rullar",
-                       @"answer3":@"Shitterishit",
-                       @"answer4":@"Hoppar",
-                       @"correctAnswer":@"Shitterishit"};
-    self.question6 = @{@"question":@"Behöver vi lära oss Objective-C?",
-                       @"answer1":@"Ja för fan",
-                       @"answer2":@"Hell no!!!",
-                       @"answer3":@"Absolut",
-                       @"answer4":@"Ja för fan",
-                       @"correctAnswer":@"Hell no!!!"};
-    self.question7 = @{@"question":@"Vilken färg har färgen blå?",
-                       @"answer1":@"Ingen alls",
-                       @"answer2":@"Blå",
-                       @"answer3":@"Svart",
-                       @"answer4":@"Lila",
-                       @"correctAnswer":@"Ingen alls"};
-    self.question8 = @{@"question":@"Vad är 1+1?",
-                       @"answer1":@"0",
-                       @"answer2":@"2",
-                       @"answer3":@"2",
-                       @"answer4":@"2",
-                       @"correctAnswer":@"0"};
-    self.question9 = @{@"question":@"Hur hoppar man?",
-                       @"answer1":@"Det gör man inte",
-                       @"answer2":@"På studsmattan",
-                       @"answer3":@"Man hoppar",
-                       @"answer4":@"Jämfota",
-                       @"correctAnswer":@"Det gör man inte"};
-    self.question10 = @{@"question":@"Vad händer när det regnar?",
-                       @"answer1":@"Man blir blöt",
-                       @"answer2":@"Det blir blött",
-                       @"answer3":@"Det regnar",
-                       @"answer4":@"Man sitter inne",
-                       @"correctAnswer":@"Man sitter inne"};
-    self.question11 = @{@"question":@"Vad händer när det regnar?",
-                        @"answer1":@"Man blir blöt",
-                        @"answer2":@"Det blir blött",
-                        @"answer3":@"Det regnar",
-                        @"answer4":@"Man sitter inne",
-                        @"correctAnswer":@"Man sitter inne"};
+    self.question1 = @{@"question":@"Laphroaig destilleri producerar en speciell Single Malt som har slutlagrats i speciella mindre fat. Vad heter den??",
+                       @"answer1":@"Tripple Wood",
+                       @"answer2":@"Quarter Cask",
+                       @"answer3":@"Select",
+                       @"answer4":@"Cask Strength",
+                       @"correctAnswer":@"Quarter Cask"};
+    self.question2 = @{@"question":@"Vem skrev boken “101 whisky du måste dricka innan du dör”?",
+                       @"answer1":@"Magnus Dandanell",
+                       @"answer2":@"Roger Melander",
+                       @"answer3":@"Örjan Westerlund",
+                       @"answer4":@"Glenn Murray",
+                       @"correctAnswer":@"Örjan Westerlund"};
+    self.question3 = @{@"question":@"När omnämndes whisky för första gången i skrift?",
+                       @"answer1":@"1835",
+                       @"answer2":@"1768",
+                       @"answer3":@"1305",
+                       @"answer4":@"1494",
+                       @"correctAnswer":@"1494"};
+    self.question4 = @{@"question":@"Whiskyn aberfeldy har ett djur som symbol, vilket?",
+                       @"answer1":@"Ekorre",
+                       @"answer2":@"Häst",
+                       @"answer3":@"Örn",
+                       @"answer4":@"Fisk",
+                       @"correctAnswer":@"Ekorre"};
+    self.question5 = @{@"question":@"Hur stor del av all Skotsk whisky som säljs, är blended?",
+                       @"answer1":@"ca 90%",
+                       @"answer2":@"ca 70%",
+                       @"answer3":@"ca 30%",
+                       @"answer4":@"ca 55%",
+                       @"correctAnswer":@"ca 90%"};
+    self.question6 = @{@"question":@"Vilken skotsk whisky var den enda som hade tillstånd att säljas under förbudstiden i USA på 1920-talet – i medicinskt syfte?",
+                       @"answer1":@"Longmorn",
+                       @"answer2":@"Balvenie",
+                       @"answer3":@"Laphroaig",
+                       @"answer4":@"Auchentoshan",
+                       @"correctAnswer":@"Laphroaig"};
+    self.question7 = @{@"question":@"Vilket var det första whiskydestilleriet i Skottland som år 1824 valde att licensiera sig?",
+                       @"answer1":@"Aberlour",
+                       @"answer2":@"Glenlivet",
+                       @"answer3":@"Macallan",
+                       @"answer4":@"Laphroaig",
+                       @"correctAnswer":@"Glenlivet"};
+    self.question8 = @{@"question":@"På tio topp listan över världens mest sålda whisky återfinner vi 7 whisky från ett och samma land (plats 1, 2, 4, 5, 6, 8 och 10) vilket land?",
+                       @"answer1":@"Skottland",
+                       @"answer2":@"Indien",
+                       @"answer3":@"Irland",
+                       @"answer4":@"Japan",
+                       @"correctAnswer":@"Indien"};
+    self.question9 = @{@"question":@"Den första kvinnliga ”Master Blender” inom Skotsk whiskyindustri blev Rachel Barrie hos Glenmorangie. Vilket år fick hon sin titel?",
+                       @"answer1":@"2008",
+                       @"answer2":@"2003",
+                       @"answer3":@"2012",
+                       @"answer4":@"2010",
+                       @"correctAnswer":@"2003"};
+    self.question10 = @{@"question":@"I vilken av följande drinkar finns det INTE whisk(e)y?",
+                       @"answer1":@"Irish Cofee",
+                       @"answer2":@"Manhattan",
+                       @"answer3":@"Blody Mary",
+                       @"answer4":@"Rusty Nail",
+                       @"correctAnswer":@"Blody Mary"};
+//    self.question11 = @{@"question":@"Vad händer när det regnar?",
+//                        @"answer1":@"Man blir blöt",
+//                        @"answer2":@"Det blir blött",
+//                        @"answer3":@"Det regnar",
+//                        @"answer4":@"Man sitter inne",
+//                        @"correctAnswer":@"Man sitter inne"};
     
     [self.questionArray addObject:self.question1];
     [self.questionArray addObject:self.question2];
@@ -122,7 +122,7 @@
     [self.questionArray addObject:self.question8];
     [self.questionArray addObject:self.question9];
     [self.questionArray addObject:self.question10];
-    [self.questionArray addObject:self.question11];
+//    [self.questionArray addObject:self.question11];
 
     
 }
