@@ -49,6 +49,14 @@
     [self buttonsEnabled];
     self.rightOrWrong.text = @"";
 }
+- (IBAction)newGame:(id)sender {
+    self.questionCounter = 0;
+    self.rightGuesses = 0;
+    [self showQuestion];
+    self.rightOrWrong.text = @"";
+    [self showButtons];
+    [self buttonsEnabled];
+}
 
 -(void)showQuestion{
     
@@ -68,18 +76,19 @@
     NSString *theGuess = sender.titleLabel.text;
     isCorrect = [self.game isCorrectGuess:theGuess :self.theQuestion];
     if (isCorrect) {
-        self.rightOrWrong.text = @"Correct youhla";
+        self.rightOrWrong.text = @"Correct answer!";
         self.rightGuesses++;
     } else {
-        self.rightOrWrong.text = @"retard mf, answer again plz";
+        self.rightOrWrong.text = @"Wrong answer";
     }
     [self buttonsDisabled];
     if (self.questionCounter > 4) {
-        self.scoreTable.text = [NSString stringWithFormat: @"Ammount of right guesses %i of %i questions ",self.rightGuesses ,self.questionCounter];
+        self.scoreTable.text = [NSString stringWithFormat: @"You scored %i out of %i questions ",self.rightGuesses ,self.questionCounter];
     }
     if (self.questionCounter == 10) {
         [self hideButtons];
         self.playAgain.hidden = NO;
+        self.rightOrWrong.text = @"";
     }
 }
 
@@ -105,6 +114,15 @@
     self.secondChoice.hidden = YES;
     self.thirdChoice.hidden = YES;
     self.fourthChoice.hidden = YES;
+    self.nextQuestion.hidden = YES;
+}
+
+-(void)showButtons {
+    self.firstChoice.hidden = NO;
+    self.secondChoice.hidden = NO;
+    self.thirdChoice.hidden = NO;
+    self.fourthChoice.hidden = NO;
+    self.nextQuestion.hidden = NO;
 }
 
 - (void)didReceiveMemoryWarning {

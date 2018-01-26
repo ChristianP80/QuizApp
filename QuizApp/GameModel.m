@@ -105,6 +105,12 @@
                        @"answer3":@"Det regnar",
                        @"answer4":@"Man sitter inne",
                        @"correctAnswer":@"Man sitter inne"};
+    self.question11 = @{@"question":@"Vad händer när det regnar?",
+                        @"answer1":@"Man blir blöt",
+                        @"answer2":@"Det blir blött",
+                        @"answer3":@"Det regnar",
+                        @"answer4":@"Man sitter inne",
+                        @"correctAnswer":@"Man sitter inne"};
     
     [self.questionArray addObject:self.question1];
     [self.questionArray addObject:self.question2];
@@ -116,6 +122,8 @@
     [self.questionArray addObject:self.question8];
     [self.questionArray addObject:self.question9];
     [self.questionArray addObject:self.question10];
+    [self.questionArray addObject:self.question11];
+
     
 }
 

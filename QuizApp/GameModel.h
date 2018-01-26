@@ -20,6 +20,7 @@
 @property (nonatomic) NSDictionary *question8;
 @property (nonatomic) NSDictionary *question9;
 @property (nonatomic) NSDictionary *question10;
+@property (nonatomic) NSDictionary *question11;
 @property (nonatomic) NSMutableArray * questionArray;
 -(NSDictionary*)getQuestion;
 -(BOOL)isCorrectGuess:(NSString*)guess :(NSDictionary *)question;
